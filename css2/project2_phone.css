@@ -1,0 +1,52 @@
+#navbar{
+    flex-direction: column;
+}
+#logo{
+    text-align: center;
+}
+#navbar ul{
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a{
+    font-size: 0.8rem;
+    padding: 0px;
+}
+#home{
+    height: 200px;
+    padding: 0px;
+}
+#home::before{
+    height: 300px;
+}
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 2px 0px;
+}
+#services img{
+    height: auto;
+    width: 90px;
+}
+#clients{
+   flex-wrap: wrap;
+
+}
+#clients img{
+    width: 80px;
+    height: auto;
+}
+.h-primary{
+    font-size: 1.5rem;
+    padding-top: 0px;
+    font-family: 'Merriweather', serif;
+}
+#home p{
+    font-size: 0.8rem;
+}
+.btn{
+    font-size: 1rem;
+    padding: 0px 2px;
+}
